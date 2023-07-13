@@ -1,0 +1,17 @@
+{
+    "name": "socket/socket",
+    "type": "project",
+    "authors": [
+        {
+            "name": "José Armando HS"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
